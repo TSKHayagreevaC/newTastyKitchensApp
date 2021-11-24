@@ -1,0 +1,46 @@
+.item-counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-item-decrement-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0px 5px 0px 0px;
+  border: 2px solid #3e4c59;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+}
+
+.item-count {
+  font-family: 'DM Sans';
+  margin: 4px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-count {
+    margin: 10px;
+  }
+}
+
+.cart-item-increment-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 2px solid #3e4c59;
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 5px;
+  font-weight: bold;
+}

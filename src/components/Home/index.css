@@ -1,0 +1,186 @@
+.home-bg-container {
+  width: 100%;
+}
+
+.react-slick-slider-style {
+  width: 100%;
+}
+
+.slider-style {
+  margin: 10px;
+}
+
+.react-slider-list-item {
+  width: 100%;
+}
+
+.carousel-image-style {
+  width: 100%;
+}
+
+.slick-loader-bg-container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-not-found-bg-container {
+  height: 45vh;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-not-found-bg-container {
+    height: 40vh;
+  }
+}
+
+.slick-not-found-content-container {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-not-found-image {
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-not-found-image {
+    height: 200px;
+  }
+}
+
+.loader-bg-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content-container {
+  width: 100%;
+  padding: 6px 20px 6px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-top-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.home-container-heading {
+  margin: 0px;
+  font-size: 22px;
+  color: #183b56;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container-heading {
+    font-size: 42px;
+  }
+}
+
+.home-content-para {
+  color: #64748b;
+  font-size: 14px;
+  margin: 3px 3px 3px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content-para {
+    font-size: 18px;
+    margin: 3px 0px 3px 0px;
+  }
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-by-para {
+  margin: 0px;
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.drop-down-select {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .drop-down-select {
+    font-size: 16px;
+  }
+}
+
+.drop-down-option {
+  border: 1px solid #475569;
+  font-size: 18px;
+}
+
+.hr-style {
+  width: 100%;
+}
+
+.restaurants-list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pagination-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination-text {
+  margin: 0px 0px 2px 0px;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  color: #334155;
+}
