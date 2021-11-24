@@ -30,40 +30,44 @@ class Header extends Component {
     history.replace('/login')
   }
 
-  displayHamburgerMenu = () => (
-    <div className="header-small-links-bg-container">
-      <ul className="header-links-list-small">
-        <Link to="/" exact className="nav-link-style" activeClassName="active">
-          <li className="larger-header-link-item">Home</li>
-        </Link>
-        <Link to="/cart" className="nav-link-style" activeClassName="active">
-          <li className="larger-header-link-item">Cart</li>
-        </Link>
-        <li className="larger-header-link-item">
-          <button
-            className="logout-button"
-            type="button"
-            onClick={this.onClickLogout}
-          >
-            Logout
-          </button>
-        </li>
-        <li className="larger-header-link-item">
-          <button
-            className="hamburger-exit-button"
-            type="button"
-            onClick={this.onClickHamburgersCloseButton}
-          >
-            <img
-              src="https://res.cloudinary.com/tskhayagreevac/image/upload/v1634812708/Shape_vgjjz5.jpg"
-              alt="exitButton"
-              className="exit-image"
-            />
-          </button>
-        </li>
-      </ul>
-    </div>
-  )
+  displayHamburgerMenu = () => {
+    const {isCartRouteActive} = this.state
+    const activeLinkClassName = isCartRouteActive ? 'active' : null
+    return (
+      <div className="header-small-links-bg-container">
+        <ul className="header-links-list-small">
+          <Link to="/" className={`nav-link-style ${activeLinkClassName}`>
+            <li className="larger-header-link-item">Home</li>
+          </Link>
+          <Link to="/cart" className={`nav-link-style ${activeLinkClassName}`}>
+            <li className="larger-header-link-item">Cart</li>
+          </Link>
+          <li className="larger-header-link-item">
+            <button
+              className="logout-button"
+              type="button"
+              onClick={this.onClickLogout}
+            >
+              Logout
+            </button>
+          </li>
+          <li className="larger-header-link-item">
+            <button
+              className="hamburger-exit-button"
+              type="button"
+              onClick={this.onClickHamburgersCloseButton}
+            >
+              <img
+                src="https://res.cloudinary.com/tskhayagreevac/image/upload/v1634812708/Shape_vgjjz5.jpg"
+                alt="exitButton"
+                className="exit-image"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+    )
+  }
 
   render() {
     const {isHamburgerActive} = this.state
@@ -82,10 +86,10 @@ class Header extends Component {
               </div>
             </Link>
             <ul className="header-links-list">
-              <Link to="/" exact className="nav-link-style">
+              <Link to="/" className={`nav-link-style ${activeLinkClassName}`>
                 <li className="larger-header-link-item">Home</li>
               </Link>
-              <Link to="/cart" className="nav-link-style">
+              <Link to="/cart" className={`nav-link-style ${activeLinkClassName}`>
                 <li className="larger-header-link-item">Cart</li>
               </Link>
               <li className="larger-header-link-item">

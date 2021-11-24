@@ -130,7 +130,6 @@ class Cart extends Component {
         {placedOrderSuccessfully
           ? this.renderSuccessFullyPlacedOrderPage()
           : this.renderCartPage()}
-        <Footer />
       </div>
     )
   }
