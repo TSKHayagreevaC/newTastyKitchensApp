@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/newTastyKitchensApp/static/css/main.174ba341.chunk.css",
+    "main.js": "/newTastyKitchensApp/static/js/main.afa50951.chunk.js",
+    "main.js.map": "/newTastyKitchensApp/static/js/main.afa50951.chunk.js.map",
+    "runtime-main.js": "/newTastyKitchensApp/static/js/runtime-main.99399bf0.js",
+    "runtime-main.js.map": "/newTastyKitchensApp/static/js/runtime-main.99399bf0.js.map",
+    "static/js/2.f77edcbe.chunk.js": "/newTastyKitchensApp/static/js/2.f77edcbe.chunk.js",
+    "static/js/2.f77edcbe.chunk.js.map": "/newTastyKitchensApp/static/js/2.f77edcbe.chunk.js.map",
+    "index.html": "/newTastyKitchensApp/index.html",
+    "static/css/main.174ba341.chunk.css.map": "/newTastyKitchensApp/static/css/main.174ba341.chunk.css.map",
+    "static/js/2.f77edcbe.chunk.js.LICENSE.txt": "/newTastyKitchensApp/static/js/2.f77edcbe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99399bf0.js",
+    "static/js/2.f77edcbe.chunk.js",
+    "static/css/main.174ba341.chunk.css",
+    "static/js/main.afa50951.chunk.js"
+  ]
+}
